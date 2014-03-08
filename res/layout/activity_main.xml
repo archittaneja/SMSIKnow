@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#ccc"
+    >
+    <ListView android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="6dp"
+		android:layout_marginRight="6dp"
+		android:layout_marginTop="4dp"
+		android:layout_marginBottom="4dp" 
+		android:divider="#ccc"
+		android:dividerHeight="6dp"
+		android:clipToPadding="false"
+		
+         />
+    <ProgressBar
+            android:id="@+id/progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminateOnly="true"
+            android:visibility="invisible"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            style="?android:attr/progressBarStyleLargeInverse"
+            />
+       
+
+</RelativeLayout>
+
+
+<!-- android:divider="#30617c"
+android:background="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent"
+        
+        android:dividerHeight="1dp"-->
